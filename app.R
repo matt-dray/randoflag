@@ -32,7 +32,8 @@ ui <- fluidPage(
   actionButton(
     "refresh_btn",
     paste("Refresh", emo::ji("arrows_counterclockwise"))
-  )
+  ),
+  br(), br(), br()
   
 )
 
