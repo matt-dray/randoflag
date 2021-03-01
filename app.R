@@ -19,8 +19,7 @@ ui <- fluidPage(
   tags$head(tags$style(
     "* { text-align: center; }",
     "#flagEmoji { font-size: 200px }",
-    "#flagName { font-size: 25px }",
-    "footer { position: absolute; bottom:5%; left: 5%; right:5% }"
+    "#flagName { font-size: 25px }"
   )),
   
   textOutput("flagEmoji"),
@@ -33,12 +32,6 @@ ui <- fluidPage(
   actionButton(
     "refresh_btn",
     paste("Refresh", emo::ji("arrows_counterclockwise"))
-  ),
-  
-  HTML(
-    "<footer>
-          <a href='https://www.matt-dray.com/'>Matt Dray</a>
-          </footer>"
   )
   
 )
