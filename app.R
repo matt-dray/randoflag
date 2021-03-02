@@ -7,11 +7,11 @@ flags <- emo::jis[emo::jis$subgroup == "country-flag", c("emoji", "name")]
 
 ui <- fluidPage(
   
-  theme = bs_theme(
+  theme = bslib::bs_theme(
     bg = "#333333",
     fg = "#FFFFFF",
     primary = "#BEBEBE",
-    base_font = font_google("Varela Round")
+    base_font = bslib::font_google("Varela Round")
   ),
   
   shinyjs::useShinyjs(),
@@ -24,8 +24,7 @@ ui <- fluidPage(
   
   textOutput("flagEmoji"),
   actionButton("reveal_btn", paste("Reveal", emo::ji("check"))),
-  br(),
-  br(),
+  br(), br(),
   hidden(div(id = "reveal_div", textOutput("flagName"))),
   br(),
   
