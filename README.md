@@ -9,7 +9,7 @@
 
 Get vexed! A very simple Shiny app that presents a random (emoji) flag. Click to reveal the nation it represents; refresh for a new one.
 
-<img src='https://raw.githubusercontent.com/matt-dray/rostrum-blog/master/static/post/2021-03-01-randoflag_files/randoflag-300x450.gif' height=300 alt='An emoji flag with a button saying reveal and another saying refresh; it says Guadeloupe under the reveal button.'>
+<img src='img/randoflag-300x450.gif' height=300 alt='An emoji flag with a button saying reveal and another saying refresh; it says Guadeloupe under the reveal button.'>
 
 Basically, I wanted something interesting to open with each new browser tab on my phone.
 
