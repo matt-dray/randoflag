@@ -12,7 +12,9 @@ Get vexed! A very simple Shiny app that presents a random (emoji) flag. Click to
 
 Basically, I wanted something interesting to open with each new browser tab on my phone.
 
-[Read the blog post](https://www.rostrum.blog/2021/03/02/randoflag/) and visit the app online at [mattdray.shinyapps.io/randoflag](https://mattdray.shinyapps.io/randoflag/) (until I decide to take it down).
+[Read the blog post](https://www.rostrum.blog/2021/03/02/randoflag/) and visit the app online at [mattdray.shinyapps.io/randoflag/](https://mattdray.shinyapps.io/randoflag/).
+
+If it fails to load, it could be because it's reached [the maximum active hours allowed on the shinyapps.io free plan](https://support.rstudio.com/hc/en-us/articles/217592947-What-are-the-limits-of-the-shinyapps-io-Free-plan), or I've taken it down.
 
 You could always run the app from an R session with:
 
